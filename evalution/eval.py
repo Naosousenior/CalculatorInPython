@@ -14,7 +14,7 @@ environment = {
     'tan': ExpressionFunction(parametrs=['value'],expression=fn.FunctionTan()),
     'invert': ExpressionFunction(parametrs=['value'],expression=fn.FunctionInvert()),
     'sqrt': ExpressionFunction(parametrs=['value'],expression=fn.FunctionSquareRoot()),
-    'root': ExpressionFunction(parametrs=['base','exponent'],expression=fn.FunctionRoot),
+    'root': ExpressionFunction(parametrs=['base','exponent'],expression=fn.FunctionRoot()),
     'sequation1': ExpressionFunction(parametrs=['a','b'],expression=fn.FunctionSimpleEquationSolving()),
     'sequation2': ExpressionFunction(parametrs=['a','b','c'],expression=fn.FunctionQuadraticEquationSolving())
 }

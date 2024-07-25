@@ -27,6 +27,7 @@ In additional, exists logic and aritmethic operations:
     log <term1> <term2>: logarithm,
     and: and,
     or: or,
+    in: checks left in right,
     ~: not,
     xor: xor,
     = : equal

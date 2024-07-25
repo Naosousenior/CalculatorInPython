@@ -83,7 +83,7 @@ class Lexer:
     
     def _get_token_name(self) -> tk.Token:
         name = self.cur_letter
-        while self._is_letter(self.next_letter):
+        while self._is_letter(self.next_letter) or self._is_number(self.next_letter):
             self._read_letter()
             name += self.cur_letter
 

@@ -1,5 +1,5 @@
 # CalculatorInPython
- A calculator maid in python
+ A calculator made in python.  
 
 Hello, I'm here to explain this calculator!!
 
